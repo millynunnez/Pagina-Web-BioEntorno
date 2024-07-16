@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organigrama</title>
+    <link rel="stylesheet" href="ours.css">
+    <link rel="stylesheet" href="ours2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <header class="header">
+        <a href="#" class="logo">BioEntorno</a>
+    
+        <nav class="nav-bar">
+            
+            <div class="main">
+                <a href="index.html">Home</a>
+                <a href="ours.html" class="active" >Nosotros</a>
+                <a href="items.html">Programas</a>
+                <a href="news.html">Noticias</a>
+                <a href="recol.html">Puntos de Recolección</a>
+                <a href="sen_e.html">BioWorld</a>
+                <a href="pqrs.html">Contacto</a>
+              </div>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+
+    
+    <div class="story-container">
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?mountains?sig=947">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?nature?sig=993">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?kitten?sig=776">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?switzerland?sig=562">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?hills?sig=606">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?forest?sig=815">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?autumn?sig=737">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?scottland?sig=603">
+        </div>
+
+        <div class="story-item">
+            <div class="indicator">
+                <div class="slider-progress">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <img src="https://source.unsplash.com/300x700/?finnland?sig=667">
+        </div>
+
+    </div>
+    
+
+    
+
+
+
+    <!--Text Start-->
+    <section>
+        <!-- The two texts -->
+<div id="container-text">
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+
+<!-- The SVG filter used to create the merging effect -->
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+            <feColorMatrix in="SourceGraphic"
+                    type="matrix"
+                    values="1 0 0 0 0
+                                    0 1 0 0 0
+                                    0 0 1 0 0
+                                    0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg><!-- Explanation in JS tab -->
+
+<!-- The two texts -->
+<div id="container_aux">
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+
+<!-- The SVG filter used to create the merging effect -->
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+            <feColorMatrix in="SourceGraphic"
+                    type="matrix"
+                    values="1 0 0 0 0
+                                    0 1 0 0 0
+                                    0 0 1 0 0
+                                    0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+</section>
+    <!--Text End-->
+
+
+
+
+
+    <!-- Personal Start -->
+    <div class="container">
+        <div class="row">
+            <div class="tree">
+                <ul>
+                    <li> <a href="#"><img src="img/personal/Silvana.jpg"><span>Silvana</span><span>Presidente <br> </BR>Ejecutiva</span></a>
+                    <ul>
+                        <li><a href="#"><img src="img/personal/Monik.jpg"><span>Mónica</span><span>Directora <br> Técnica</span></a>
+                        <ul>
+                            <li> <a href="#"><img src="img/personal/Lina Sedano.jpg"><span>Lina</span><span>Coord. <br> HSEQ</span></a></li>
+                            <li> <a href="#"><img src="img/personal/Milly Nuñez.jpg"><span>Milly</span><span>Coord. <br> TIC's</span></a> </li>
+                            <li> <a href="#"><img src="img/personal/Adriana.jpg"><span>Adriana</span><span>Coord. <br> Nacional</span></a> 
+                            <ul>
+                                <li> <a href="#"><img src="img/personal/Angie Rodriguez.png"><span>Angie</span><span>Coord. <br> Norte</span></a> </li>
+                                <li> <a href="#"><img src="img/personal/yoselin.jpg"><span>Yoselin</span><span>Coord. <br> Ocidental</span></a></li>
+                                <li> <a href="#"><img src="img/personal/Lina Sedano.jpg"><span>Lina</span><span>Coord. <br> CundiBoyacá</span></a></li>
+                                <li> <a href="#"><img src="img/personal/yoselin.jpg"><span>Yoselin</span><span>Coord. <br> Ocidental</span></a></li>
+                            </ul>
+                            </li>
+                            <li> <a href="#"><img src="img/personal/Johana.jpg"><span>Johana</span><span>Coord. <br> Admin</span></a> 
+                            <ul>
+                                <li> <a href="#"><img src="img/personal/Angie Rodriguez.png"><span>Sebastian</span><span>Asistente <br> Contable</span></a> </li>
+                            </ul>
+                            </li>
+                            
+                            <li> <a href="#"><img src="img/personal/Luis Arciniegas.jpg"><span>Kilian</span><span>Coord. <br> Comercial</span></a> </li>
+                        </ul>
+                    </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</div>
+</div>
+<!-- Personal start -->
+
+<!--personal studystart-->
+<section>
+    <div id="body_cache"></div>
+    <div id="avatar">
+    </div>
+    <main>
+    <h3>Nuestro Equipo</h3>
+    <h3>( Personal Branding )</h3>
+    <div id="main"></div>
+    </main>
+</section>
+<!--Personal study end-->
+
+<!--mision vision star-->
+<section>
+        
+</section>
+<!--mision vision end-->
+
+
+
+<!-- Footer start -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Ubicación</h4>
+                            <span>Cll 95 No 15-47 Oficina 704</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Telefono</h4>
+                            <span>(571) 8054826</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Correo</h4>
+                            <span>info@bioentorno.org</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="./img/Nombre.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Bioentorno es una entidad sin animo de lucro dedicada a la preservación de la salud y el ambiente, diseñamos e implementamos soluciones para la gestión socio - Ambiental de los sectores productivos de Colombia.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Siguenos</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-instagram instagram-bg"></i></a>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-70">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>¿Como Donar?</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>¡Ayuda a preservar nuestro planeta! Tu contribuciÓn hace la diferencia. ÚNETE A NOSOTROS en nuestro esfuerzo por conservar el medio ambiente. Cada donación cuenta: desde la plantación de árboles hasta la limpieza de nuestros oceanos, tu apoyo nos permite continuar con estas iniciativas vitales para un futuro sostenible.</p>
+                        </div>
+                        <div class="subscribe-form">
+                          <ul>
+                            <li><a href="#">Bancolombia: Cta. de Ahorros 46100000424</a></li>
+                            
+                            <li><a href="#">Banco de Bogotá: Cta. Corriente 107187338</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Programas</a></li>
+                            <li><a href="#">Noticias</a></li>
+                            <li><a href="#">Puntos de recolección</a></li>
+                            <li><a href="#">BioWorld</a></li>
+                            <li><a href="#">Contactanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="copyright-area">
+        <div class="container">
+                   <div class="copyright-text">
+                        <p>Copyright &copy; 2023, All Right Reserved <a href="https://codepen.io/anupkumar92/">Mnnq</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer End -->
+<script src="texto_cam.js"></script>
+
+    <src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
